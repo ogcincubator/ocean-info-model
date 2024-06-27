@@ -2,7 +2,7 @@
   "name": "Oceans Information Model",
   "abstract": "Defines a semantic model for interoperability between Components of Digital Twins of the Ocean or similar domain applications uisng a baseline of common standard models.\n",
   "description": "TBD\n",
-  "modified": "2024-06-26T08:13:29.040528",
+  "modified": "2024-06-27T04:47:30.620139",
   "tooling": {
     "bblocks-postprocess": {
       "commitId": "\"6badef16348eb4c240d1a1e4389d783ba62b56b9",
@@ -12,9 +12,9 @@
   },
   "gitRepository": "https://github.com/ogcincubator/ocean-info-model",
   "gitHubRepository": "https://github.com/ogcincubator/ocean-info-model/blob/master/",
-  "baseURL": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/",
-  "viewerURL": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/",
-  "validationReport": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/tests/report.html",
+  "baseURL": "https://ogcincubator.github.io/ocean-info-model/",
+  "viewerURL": "https://ogcincubator.github.io/ocean-info-model/",
+  "validationReport": "https://ogcincubator.github.io/ocean-info-model/build/tests/report.html",
   "imports": [
     "https://opengeospatial.github.io/bblocks/register.json",
     "https://ogcincubator.github.io/cross-domain-model/build/register.json"
@@ -30,7 +30,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2024-06-26",
+      "dateOfLastChange": "2023-04-05",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -45,35 +45,35 @@
       ],
       "shaclRules": {
         "ogc.model.oceans.mySchema": [
-          "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/_sources/mySchema/rules.shacl"
+          "https://ogcincubator.github.io/ocean-info-model/_sources/mySchema/rules.shacl"
         ]
       },
-      "ldContext": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/mySchema/context.jsonld",
+      "ldContext": "https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/mySchema/context.jsonld",
       "schema": {
-        "application/yaml": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/mySchema/schema.yaml",
-        "application/json": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/mySchema/schema.json"
+        "application/yaml": "https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/mySchema/schema.yaml",
+        "application/json": "https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/mySchema/schema.json"
       },
-      "sourceSchema": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/_sources/mySchema/schema.yaml",
-      "sourceLdContext": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/_sources/mySchema/context.jsonld",
-      "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/_sources/mySchema/",
+      "sourceSchema": "https://ogcincubator.github.io/ocean-info-model/_sources/mySchema/schema.yaml",
+      "sourceLdContext": "https://ogcincubator.github.io/ocean-info-model/_sources/mySchema/context.jsonld",
+      "sourceFiles": "https://ogcincubator.github.io/ocean-info-model/_sources/mySchema/",
       "validationPassed": true,
       "testOutputs": "https://github.com/ogcincubator/ocean-info-model/blob/master/build/tests/model/oceans/mySchema/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/generateddocs/markdown/model/oceans/mySchema/index.md"
+          "url": "https://ogcincubator.github.io/ocean-info-model/build/generateddocs/markdown/model/oceans/mySchema/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/generateddocs/json-full/model/oceans/mySchema/index.json"
+          "url": "https://ogcincubator.github.io/ocean-info-model/build/generateddocs/json-full/model/oceans/mySchema/index.json"
         },
         "slate": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/generateddocs/slate-build/model/oceans/mySchema/"
+          "url": "https://ogcincubator.github.io/ocean-info-model/build/generateddocs/slate-build/model/oceans/mySchema/"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/bblock/ogc.model.oceans.mySchema"
+          "url": "https://ogcincubator.github.io/ocean-info-model/bblock/ogc.model.oceans.mySchema"
         }
       }
     },
@@ -86,7 +86,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-examples",
       "version": "1.0",
-      "dateOfLastChange": "2024-06-26",
+      "dateOfLastChange": "2023-05-19",
       "sources": [
         {
           "title": "OGC API - Features, Part 1, 7.16.2: Feature Response",
@@ -107,34 +107,34 @@
       "highlighted": true,
       "shaclRules": {
         "ogc.model.oceans.mySchema": [
-          "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/_sources/mySchema/rules.shacl"
+          "https://ogcincubator.github.io/ocean-info-model/_sources/mySchema/rules.shacl"
         ]
       },
       "schema": {
-        "application/yaml": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/myFeature/schema.yaml",
-        "application/json": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/myFeature/schema.json"
+        "application/yaml": "https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/myFeature/schema.yaml",
+        "application/json": "https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/myFeature/schema.json"
       },
-      "sourceSchema": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/_sources/myFeature/schema.yaml",
-      "ldContext": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/myFeature/context.jsonld",
-      "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/_sources/myFeature/",
+      "sourceSchema": "https://ogcincubator.github.io/ocean-info-model/_sources/myFeature/schema.yaml",
+      "ldContext": "https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/myFeature/context.jsonld",
+      "sourceFiles": "https://ogcincubator.github.io/ocean-info-model/_sources/myFeature/",
       "validationPassed": true,
       "testOutputs": "https://github.com/ogcincubator/ocean-info-model/blob/master/build/tests/model/oceans/myFeature/",
       "documentation": {
         "markdown": {
           "mediatype": "text/markdown",
-          "url": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/generateddocs/markdown/model/oceans/myFeature/index.md"
+          "url": "https://ogcincubator.github.io/ocean-info-model/build/generateddocs/markdown/model/oceans/myFeature/index.md"
         },
         "json-full": {
           "mediatype": "application/json",
-          "url": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/generateddocs/json-full/model/oceans/myFeature/index.json"
+          "url": "https://ogcincubator.github.io/ocean-info-model/build/generateddocs/json-full/model/oceans/myFeature/index.json"
         },
         "slate": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/generateddocs/slate-build/model/oceans/myFeature/"
+          "url": "https://ogcincubator.github.io/ocean-info-model/build/generateddocs/slate-build/model/oceans/myFeature/"
         },
         "bblocks-viewer": {
           "mediatype": "text/html",
-          "url": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/bblock/ogc.model.oceans.myFeature"
+          "url": "https://ogcincubator.github.io/ocean-info-model/bblock/ogc.model.oceans.myFeature"
         }
       }
     }

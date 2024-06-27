@@ -10,7 +10,7 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2024-06-26",
+  "dateOfLastChange": "2023-04-05",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
@@ -25,17 +25,17 @@
   ],
   "shaclRules": {
     "ogc.model.oceans.mySchema": [
-      "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/_sources/mySchema/rules.shacl"
+      "https://ogcincubator.github.io/ocean-info-model/_sources/mySchema/rules.shacl"
     ]
   },
-  "ldContext": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/mySchema/context.jsonld",
+  "ldContext": "https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/mySchema/context.jsonld",
   "schema": {
-    "application/yaml": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/mySchema/schema.yaml",
-    "application/json": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/mySchema/schema.json"
+    "application/yaml": "https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/mySchema/schema.yaml",
+    "application/json": "https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/mySchema/schema.json"
   },
-  "sourceSchema": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/_sources/mySchema/schema.yaml",
-  "sourceLdContext": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/_sources/mySchema/context.jsonld",
-  "sourceFiles": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/_sources/mySchema/",
+  "sourceSchema": "https://ogcincubator.github.io/ocean-info-model/_sources/mySchema/schema.yaml",
+  "sourceLdContext": "https://ogcincubator.github.io/ocean-info-model/_sources/mySchema/context.jsonld",
+  "sourceFiles": "https://ogcincubator.github.io/ocean-info-model/_sources/mySchema/",
   "validationPassed": true,
   "testOutputs": "https://github.com/ogcincubator/ocean-info-model/blob/master/build/tests/model/oceans/mySchema/",
   "description": "## My Schema\n\nDefines a set of properties that may be used in **any** JSON schema.\n\n> Note these properties may be used in the \"properties\" sub-component of a GeoJSON object, as a simple object\n\nThe numeric properties \"b\" and \"c\" have an example SHACL rule that if c is present, then c > b",
@@ -48,17 +48,17 @@
           "language": "json",
           "ref": "example.json",
           "code": "{\n  \"@context\": {\n    \"mynamespace\": \"http://example.org/ns1/\"\n  },\n  \"a\": \"mynamespace:aThing\",\n  \"b\": 23,\n  \"c\": 1\n}\n\n",
-          "url": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/tests/model/oceans/mySchema/example_1_1.json"
+          "url": "https://ogcincubator.github.io/ocean-info-model/build/tests/model/oceans/mySchema/example_1_1.json"
         },
         {
           "language": "jsonld",
-          "code": "{\n  \"@context\": [\n    \"https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/mySchema/context.jsonld\",\n    {\n      \"mynamespace\": \"http://example.org/ns1/\"\n    }\n  ],\n  \"a\": \"mynamespace:aThing\",\n  \"b\": 23,\n  \"c\": 1\n}",
-          "url": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/tests/model/oceans/mySchema/example_1_1.jsonld"
+          "code": "{\n  \"@context\": [\n    \"https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/mySchema/context.jsonld\",\n    {\n      \"mynamespace\": \"http://example.org/ns1/\"\n    }\n  ],\n  \"a\": \"mynamespace:aThing\",\n  \"b\": 23,\n  \"c\": 1\n}",
+          "url": "https://ogcincubator.github.io/ocean-info-model/build/tests/model/oceans/mySchema/example_1_1.jsonld"
         },
         {
           "language": "ttl",
           "code": "@prefix mynamespace: <http://example.org/ns1/> .\n@prefix ns1: <https://example.org/my-bb-model/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a mynamespace:aThing ;\n    ns1:b 23 ;\n    ns1:c 1 .\n\n",
-          "url": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/tests/model/oceans/mySchema/example_1_1.ttl"
+          "url": "https://ogcincubator.github.io/ocean-info-model/build/tests/model/oceans/mySchema/example_1_1.ttl"
         }
       ]
     },

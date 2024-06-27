@@ -17,5 +17,5 @@
   "properties": {
     "notMyProp": "Mandatory property not present example"
   },
-  "@context": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/myFeature/context.jsonld"
+  "@context": "https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/myFeature/context.jsonld"
 }

@@ -61,7 +61,7 @@ This building block **inherits** reusable semantic annotations from a common lib
 ```jsonld
 {
   "@context": [
-    "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/myFeature/context.jsonld",
+    "https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/myFeature/context.jsonld",
     {
       "mynamespace": "http://example.org/ns1/"
     }
@@ -118,7 +118,7 @@ $defs:
     - $ref: https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml
     - properties:
         properties:
-          $ref: https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/mySchema/schema.yaml
+          $ref: https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/mySchema/schema.yaml
 anyOf:
 - $ref: '#/$defs/MyFeature'
 
@@ -126,8 +126,8 @@ anyOf:
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/myFeature/schema.json)
-* JSON version: [schema.json](https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/myFeature/schema.yaml)
+* YAML version: [schema.yaml](https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/myFeature/schema.json)
+* JSON version: [schema.json](https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/myFeature/schema.yaml)
 
 
 # JSON-LD Context
@@ -197,7 +197,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/myFeature/context.jsonld)
+[context.jsonld](https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/myFeature/context.jsonld)
 
 ## Sources
 

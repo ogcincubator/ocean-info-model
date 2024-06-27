@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.model.oceans.mySchema - My Schema",
   "bblockName": "My Schema",
   "bblockId": "ogc.model.oceans.mySchema",
-  "generated": "2024-06-26T08:13:31.791441+00:00",
+  "generated": "2024-06-27T04:47:32.287557+00:00",
   "result": true,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": true,
         "filename": "_sources/mySchema/tests/rules-fail.json",
-        "url": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/_sources/mySchema/tests/rules-fail.json",
+        "url": "https://ogcincubator.github.io/ocean-info-model/_sources/mySchema/tests/rules-fail.json",
         "language": "json"
       },
       "result": true,
@@ -93,12 +93,12 @@
               "focusNodes": {
                 "<https://www.ogc.org/rules/template/#testValues>": {
                   "nodes": [
-                    "_:Ne374f2f6a76e41fdafa16aa6825cdb19"
+                    "_:N612b098f59e643a4a25249c934ab62a4"
                   ]
                 }
               },
               "isError": false,
-              "message": "Focus nodes for _sources/mySchema/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>: _:Ne374f2f6a76e41fdafa16aa6825cdb19\n"
+              "message": "Focus nodes for _sources/mySchema/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>: _:N612b098f59e643a4a25249c934ab62a4\n"
             }
           ]
         },
@@ -114,7 +114,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/model/oceans/mySchema/example_1_1.json",
-        "url": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/tests/model/oceans/mySchema/example_1_1.json",
+        "url": "https://ogcincubator.github.io/ocean-info-model/build/tests/model/oceans/mySchema/example_1_1.json",
         "exampleIndex": 1,
         "snippetIndex": 1,
         "language": "json"
@@ -193,12 +193,12 @@
               "focusNodes": {
                 "<https://www.ogc.org/rules/template/#testValues>": {
                   "nodes": [
-                    "_:N64705f38583c4a079e5cf0c2fef93fe6"
+                    "_:N4de1d734056e4bcea5eb15d9183cc799"
                   ]
                 }
               },
               "isError": false,
-              "message": "Focus nodes for _sources/mySchema/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>: _:N64705f38583c4a079e5cf0c2fef93fe6\n"
+              "message": "Focus nodes for _sources/mySchema/rules.shacl:\n - Shape <https://www.ogc.org/rules/template/#testValues>: _:N4de1d734056e4bcea5eb15d9183cc799\n"
             }
           ]
         },

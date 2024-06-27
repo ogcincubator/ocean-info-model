@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/mySchema/context.jsonld",
+    "https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/mySchema/context.jsonld",
     {
       "mynamespace": "http://example.org/ns1/"
     }

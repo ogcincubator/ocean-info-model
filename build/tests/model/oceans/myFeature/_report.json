@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.model.oceans.myFeature - Custom Feature",
   "bblockName": "Custom Feature",
   "bblockId": "ogc.model.oceans.myFeature",
-  "generated": "2024-06-26T08:13:31.866508+00:00",
+  "generated": "2024-06-27T04:47:32.401328+00:00",
   "result": true,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "TEST_RESOURCE",
         "requireFail": true,
         "filename": "_sources/myFeature/tests/feature-fail.json",
-        "url": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/_sources/myFeature/tests/feature-fail.json",
+        "url": "https://ogcincubator.github.io/ocean-info-model/_sources/myFeature/tests/feature-fail.json",
         "language": "json"
       },
       "result": true,
@@ -65,7 +65,7 @@
               "exception": "ValidationError",
               "errorMessage": "{'id': 'f1', 'type': 'Feature', 'geometry': {'type': 'LineString', 'coordinates': [[-111.67183507997295, 40.056709946862874], [-111.71, 40.156709946862875]]}, 'properties': {'notMyProp': 'Mandatory property not present example'}} is not valid under any of the given schemas",
               "isError": true,
-              "message": "ValidationError: {'id': 'f1', 'type': 'Feature', 'geometry': {'type': 'LineString', 'coordinates': [[-111.67183507997295, 40.056709946862874], [-111.71, 40.156709946862875]]}, 'properties': {'notMyProp': 'Mandatory property not present example'}} is not valid under any of the given schemas\n\nFailed validating 'anyOf' in schema:\n    {'$defs': {'MyFeature': {'allOf': [{'$ref': 'https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml'},\n                                       {'properties': {'properties': {'$ref': 'https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/mySchema/schema.yaml'}}}]}},\n     '$schema': 'https://json-schema.org/draft/2020-12/schema',\n     'anyOf': [{'$ref': '#/$defs/MyFeature'}],\n     'description': 'Example of a sinmple GeoJSON Feature specialisation'}\n\nOn instance:\n    {'geometry': {'coordinates': [[-111.67183507997295, 40.056709946862874],\n                                  [-111.71, 40.156709946862875]],\n                  'type': 'LineString'},\n     'id': 'f1',\n     'properties': {'notMyProp': 'Mandatory property not present example'},\n     'type': 'Feature'}"
+              "message": "ValidationError: {'id': 'f1', 'type': 'Feature', 'geometry': {'type': 'LineString', 'coordinates': [[-111.67183507997295, 40.056709946862874], [-111.71, 40.156709946862875]]}, 'properties': {'notMyProp': 'Mandatory property not present example'}} is not valid under any of the given schemas\n\nFailed validating 'anyOf' in schema:\n    {'$defs': {'MyFeature': {'allOf': [{'$ref': 'https://opengeospatial.github.io/bblocks/annotated-schemas/geo/features/feature/schema.yaml'},\n                                       {'properties': {'properties': {'$ref': 'https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/mySchema/schema.yaml'}}}]}},\n     '$schema': 'https://json-schema.org/draft/2020-12/schema',\n     'anyOf': [{'$ref': '#/$defs/MyFeature'}],\n     'description': 'Example of a sinmple GeoJSON Feature specialisation'}\n\nOn instance:\n    {'geometry': {'coordinates': [[-111.67183507997295, 40.056709946862874],\n                                  [-111.71, 40.156709946862875]],\n                  'type': 'LineString'},\n     'id': 'f1',\n     'properties': {'notMyProp': 'Mandatory property not present example'},\n     'type': 'Feature'}"
             }
           ]
         },
@@ -114,7 +114,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/model/oceans/myFeature/example_1_1.json",
-        "url": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/tests/model/oceans/myFeature/example_1_1.json",
+        "url": "https://ogcincubator.github.io/ocean-info-model/build/tests/model/oceans/myFeature/example_1_1.json",
         "exampleIndex": 1,
         "snippetIndex": 1,
         "language": "json"

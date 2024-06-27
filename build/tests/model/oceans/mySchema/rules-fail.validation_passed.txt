@@ -1,5 +1,5 @@
 Validation report for ogc.model.oceans.mySchema - My Schema
-Generated 2024-06-26T08:13:31.787375+00:00
+Generated 2024-06-27T04:47:32.283511+00:00
 === General ===
 Test was expected to fail and it did.
 === End General ===
@@ -31,7 +31,7 @@ Validation result for _sources/mySchema/rules.shacl:
   	Message: Value of [ ns1:b Literal("23", datatype=xsd:integer) ; ns1:c Literal("25.5", datatype=xsd:double) ; rdf:type mynamespace:aThing ]->ns1:b <= Literal("25.5", datatype=xsd:double)
   
 Focus nodes for _sources/mySchema/rules.shacl:
- - Shape <https://www.ogc.org/rules/template/#testValues>: _:Ne374f2f6a76e41fdafa16aa6825cdb19
+ - Shape <https://www.ogc.org/rules/template/#testValues>: _:N612b098f59e643a4a25249c934ab62a4
 
 === End SHACL ===
 

@@ -1,15 +1,15 @@
 x-defs:
   ogc.geo.features.feature:
     allOf:
-    - $ref: https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/myFeature/schema-oas3.0.yaml#/x-defs/ogc.geo.common.data_types.geojson
+    - $ref: https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/myFeature/schema-oas3.0.yaml#/x-defs/ogc.geo.common.data_types.geojson
     - type: object
       properties:
         bbox:
-          $ref: https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/myFeature/schema-oas3.0.yaml#/x-defs/ogc.geo.common.data_types.bounding_box
+          $ref: https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/myFeature/schema-oas3.0.yaml#/x-defs/ogc.geo.common.data_types.bounding_box
         links:
           type: array
           items:
-            $ref: https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/myFeature/schema-oas3.0.yaml#/x-defs/ogc.ogc-utils.json-link
+            $ref: https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/myFeature/schema-oas3.0.yaml#/x-defs/ogc.ogc-utils.json-link
           x-jsonld-id: http://www.w3.org/2000/01/rdf-schema#seeAlso
         type:
           enum:
@@ -40,7 +40,7 @@ x-defs:
     required:
     - a
     - b
-    x-schema-source: https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/mySchema/schema.yaml
+    x-schema-source: https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/mySchema/schema.yaml
     x-schema-version: https://json-schema.org/draft/2020-12/schema
   ogc.geo.common.data_types.geojson:
     title: GeoJSON Feature
@@ -511,10 +511,10 @@ description: Example of a sinmple GeoJSON Feature specialisation
 $defs:
   MyFeature:
     allOf:
-    - $ref: https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/myFeature/schema-oas3.0.yaml#/x-defs/ogc.geo.features.feature
+    - $ref: https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/myFeature/schema-oas3.0.yaml#/x-defs/ogc.geo.features.feature
     - properties:
         properties:
-          $ref: https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/myFeature/schema-oas3.0.yaml#/x-defs/ogc.model.oceans.mySchema
+          $ref: https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/myFeature/schema-oas3.0.yaml#/x-defs/ogc.model.oceans.mySchema
 anyOf:
-- $ref: https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/myFeature/schema-oas3.0.yaml#/$defs/MyFeature
+- $ref: https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/myFeature/schema-oas3.0.yaml#/$defs/MyFeature
 x-schema-version: https://json-schema.org/draft/2020-12/schema

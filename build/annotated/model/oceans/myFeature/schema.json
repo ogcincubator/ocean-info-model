@@ -10,7 +10,7 @@
         {
           "properties": {
             "properties": {
-              "$ref": "https://raw.githubusercontent.com/ogcincubator/ocean-info-model/master/build/annotated/model/oceans/mySchema/schema.json"
+              "$ref": "https://ogcincubator.github.io/ocean-info-model/build/annotated/model/oceans/mySchema/schema.json"
             }
           }
         }

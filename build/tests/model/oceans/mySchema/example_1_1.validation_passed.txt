@@ -1,5 +1,5 @@
 Validation report for ogc.model.oceans.mySchema - My Schema
-Generated 2024-06-26T08:13:31.791379+00:00
+Generated 2024-06-27T04:47:32.287494+00:00
 === Files ===
 Using example_1_1.json from examples
 JSON-LD context is present - uplifting
@@ -17,7 +17,7 @@ Validation result for _sources/mySchema/rules.shacl:
   Conforms: True
   
 Focus nodes for _sources/mySchema/rules.shacl:
- - Shape <https://www.ogc.org/rules/template/#testValues>: _:N64705f38583c4a079e5cf0c2fef93fe6
+ - Shape <https://www.ogc.org/rules/template/#testValues>: _:N4de1d734056e4bcea5eb15d9183cc799
 
 === End SHACL ===
 
